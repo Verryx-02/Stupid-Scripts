@@ -3,7 +3,12 @@
 👋 Hi, here you can find some useful scripts I use for doing trivial things.
 
 Here is a list of projects with a little explanation:  
-- count_go_code_lines.py: Given a folder, it recursively explores it looking for files with the .go extension and counts the lines in those files, excluding comments and empty lines.
+- count_go_code_lines.py: Given a folder, it recursively explores it looking for files with the .go extension and counts the lines in those files.
+Returns: 
+- the total number of rows counted
+- the number of comment lines
+- the number of empty lines
+- the number of code line (without empty and comment lines)
 
 
 
